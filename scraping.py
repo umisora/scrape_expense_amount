@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Zapierが標準ライブラリ+requestsしかサポートしていない
+# [Use Python code in Zaps](https://zapier.com/help/create/code-webhooks/use-python-code-in-zaps)
 import requests
 from html.parser import HTMLParser
 import time
